@@ -4,12 +4,112 @@
 }
 
 body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #f1f1f1;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+header{
+    border: 1px solid black;
+}
+
+.login{
+    font-size: 0.75rem;
+    width: 40%;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    margin: auto;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+}
+
+.login a:hover{
+    color:grey;
+}
+
+.header-info{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo a > h1{
+    font-family: 'Caveat Brush', sans-serif;
+    color: red;
+    font-size: 3rem;
+}
+
+.search{
+    border-bottom: 1px solid black;
+}
+
+.pad{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.pad button{
+    margin-right: 3px;
+}
+
+.search-bar__input{
+    font-family: 'Ubuntu', sans-serif;
+    border: 0;
+    outline: none;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}
+
+.search-bar__submit{
+    border: 0;
+}
+
+.cancel{
+    border: 0;
+}
+
+.cancel img{
+    display: none;
+}
+    
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.nav-list{
+    display: flex;
+}
 footer{
     margin-top:auto;
 }

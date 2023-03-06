@@ -6,26 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KlassyFashions</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Open+Sans:wght@300&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div>
-            <a href="">create an account</a>
-            <a href="">sign in</a>
-            <a href="">find a store</a>
+        <div class="login">
+            <a href="">Create An Account</a>
+            <a href="">Sign In</a>
+            <a href="">Find A Store</a>
         </div>
-        <div>
-            <a href="">What are you looking for</a>
-            <a href=""><h3>M&H</h3></a>
-            <a href="">Membership Info</a>
-            <a href=""></a>
-            <a href=""></a>
-            <h3>M&H</h3>
+        <div class="header-info">
+            <div class="search">
+                <div class="pad">
+                    <!-- <a href="">What are you looking for?</a> -->
+                    <input type="text" class="search-bar__input" placeholder="What are you looking for?" aria-label="search">
+                    <button class="cancel"><img src="assets/images/cancel.png" width="15" height="15" alt="cancel"></button>
+                    <button class="search-bar__submit" aria-label="submit search"><img src="assets/images/search.png" alt="search icon" width="25" height="25"></button>
+                    <!-- <i><img src="assets/images/search.png" alt="search icon" width="25" height="25"></i> -->
+                </div>
+            </div>
+            <div class="logo">
+                <a href=""><h1>M&H</h1></a>
+            </div>
+            <div class="info">
+                <a href="">Membership Info</a>
+                <a href=""><img src="assets/images/heart.png" alt="heart" width="32" height="32"></a>
+                <a href=""><img src="assets/images/shopping-cart.png" width="40" height="40" alt="shopping basket"></a>
+            </div>
         </div>
-        
     </header>
     <nav>
-        <h3>Navigation</h3>
+        <ul class="nav-list">
+            <li>
+                <a href="">Women</a>
+            </li>
+            <li>
+                <a href="">Divided</a>
+            </li>
+            <li>
+                <a href="">Men</a>
+            </li>
+            <li>
+                <a href="">Baby</a>
+            </li>
+            <li>
+                <a href="">Kids</a>
+            </li>
+            <li>
+                <a href="">M&H Beauty</a>
+            </li>
+            <li>
+                <a href="">Sport</a>
+            </li>
+            <li>
+                <a href="">Sale</a>
+            </li>
+            <li>
+                <a href="">Sustainability</a>
+            </li>
+        </ul>
+        
     </nav>
     <main>
         <h3>Main</h3>
