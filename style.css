@@ -10,6 +10,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 /*************************HEADER***************************************/
@@ -421,7 +422,84 @@ color: white;
     color:#fff;
 }
 
+.magazine-container{
+    width: 100%;
+    text-align: center;
+    background-color: #f5edd7;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
 
+.magazine-card-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+
+.magazine-card{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    /* overflow: hidden; */
+  
+}
+
+.magazine-card-img{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.magazine-card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+/*DRESSES PAGE*/
+.main-container{
+    width:90%;
+    padding:20px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+
+.featured-dresses{
+    width:100%;
+    border: 1px solid yellow;
+}
+.main-feature{
+    height: 650px;
+    width: 100%;
+    border: 1px solid black;
+}
+.main-feature-container{
+    display: flex;
+    
+}
+
+.dress-img1{
+    height:650px;
+    width:50%;
+    border: 1px solid blue;
+    background-image: url(/assets/images/dress/main-img1.jpg);
+    background-position: top;
+}
+.dress-img2{
+    height:650px;
+    width:50%;
+    border: 1px solid blue;
+    background-image: url(/assets/images/dress/main-img2.jpg);
+    background-position: top;
+}
+.main-feature-title{
+    position: absolute;
+    z-index: 1;
+}
 
 
 
