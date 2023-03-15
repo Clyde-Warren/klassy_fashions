@@ -478,6 +478,7 @@ color: white;
     border: 1px solid black;
 }
 .main-feature-container{
+    position:relative;
     display: flex;
     
 }
@@ -498,9 +499,44 @@ color: white;
 }
 .main-feature-title{
     position: absolute;
-    z-index: 1;
+
 }
 
+.categlogue-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catelogue-nav-drop-down{
+    display: flex;
+}
+
+.display-style{
+    display: flex;
+}
+
+
+.card{
+    width: 236px;
+    height: 450px;
+    overflow: hidden;
+    background-color: white;
+}
+.card-img{
+    width: 100%;
+    height:350px;
+}
+.card-main-img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.heart-icon{
+    width:24px;
+    height: 24px;
+    position: absolute;
+    top: 25;
+}
 
 
 
