@@ -1,21 +1,4 @@
-const carousal = document.querySelector(".carousal");
+const dropdownBtn = document.querySelector('.dropdown-nav-menu');
+const mainOption = document.querySelector('.dropdown-nav');
 
-let isDragStart = false;
-
-const dragStart = () => {
-    isDragStart = true;
-}
-
-const dragging = (e) => {
-    if(! isDragStart) return
-    carousal.scrollLeft = e.pageX;
-    e.preventDefault();
-
-}
-
-const dragStop = () => {
-    isDragStart = false;
-}
-carousal.addEventListener("mousemove", dragging);
-carousal.addEventListener("mousedown", dragStart);
-carousal.addEventListener("mouseup", dragStop);
+dropdownBtn.addEventListener('click', ()=> mainOption.classList.toggle('active') );
