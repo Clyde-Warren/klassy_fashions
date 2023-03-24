@@ -18,13 +18,14 @@ productContainers.forEach((item, i) => {
 
 
 const dropdownBtns = document.getElementsByClassName('dropdown-nav-menu');
-const mainOption = document.querySelector('dropdown-nav')
+const mainOption = document.querySelectorAll('.dropdown-nav')
+
 
 for(let i=0; i<dropdownBtns.length; i++){
-  dropdownBtns[i].addEventListener('click', ()=> {mainOption.classList.toggle('active')});
+  dropdownBtns[i].addEventListener('click', ()=> {mainOption[i].classList.toggle('active')});
 }
 
-;
+
 
 
 // dropdownBtn.addEventListener('click', ()=> mainOption.classList.toggle('active'));
