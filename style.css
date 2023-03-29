@@ -12,6 +12,9 @@ body{
     flex-direction: column;
     box-sizing: border-box;
 }
+/*COMMON PAGE STYLES*/
+
+/**/
 
 /*************************HEADER***************************************/
 .login{
@@ -185,7 +188,7 @@ nav{
 /**************************END OF NAV STYLES*****************************************/
 
 
-/**************************TOP CATEGORIES SECTION STYLES*******************************/
+/**************************TOP CATEGORIES & TRENDING RIGHT NOW SECTION STYLES*******************************/
 .page-title{
     margin-bottom: 24px;
 }
@@ -222,6 +225,7 @@ nav{
 
 /***********************END OF TOP CATEGORIES SECTION STYLES*****************/
 
+/*READY FOR THE HOLIDAYS STYLES*/
 .fashion_2023{
     width: 70%;
     height: 550px;
@@ -256,6 +260,12 @@ nav{
     color: black;
     background-color: white;
 }
+/*END OF READY FOR HOLIDAY STYLES*/
+
+/*TRENDING RIGHT NOW STYLES*/
+/*Same as Top Category Styles - see above*/
+
+/**/
 .container{
     text-align: center;
     padding: 10px 0;
@@ -269,106 +279,14 @@ nav{
     margin: auto;
     /* position: relative; */
 }
-/*DRESSES ASIDE*/
-.aside{
-    width: 20%;
-}
-.aside-category{
-    margin-bottom: 30px;
-}
-.category-title{
-    margin-bottom: 10px;
-}
-.category-item{
-    text-decoration: none;
-    margin-bottom: 8px;
-}
-.category-item:hover{
-    text-decoration: underline;
-}
-.category-item li{
-    list-style: none;
-    font-size: 0.75rem;
-    color: black;
-    margin-bottom: 10px;
-}
 
-
-/**/
-
-.right-arrow{
-    position: absolute;
-    right: 0;
-    top: 50%;
-    margin-right: 10px;
-    
-}
-
-.left-arrow{
-    position: absolute;
-    left: 0;
-    top: 50%;
-    margin-left: 10px;
-}
-
-.slide-container{
-    height: 366px;
-    width: 70%;
-}    
-
-.card{
-    height: 365px;
-    width: 200px;
-    display:inline-block;
-}
-.card-img{
-    height:300px;
-    width:200px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    
-}
-.card-img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.card-info{
-    margin-left:8px;
-}
-.card-info p{
-    margin: 4px 0;
-    font-size: 0.9rem;
-    font-weight: lighter;
-}
-.card-description{
-    text-decoration: none;
-    color: black;
-    margin-bottom: 4px;
-    font-size: 0.75rem;
-}
-.card-discount{
-    text-decoration: none;
-    color: red;
-    font-size: 0.75rem;
-}
-.wish-list__btn {
-    position: absolute;
-}
-
+/*NEW FASHION HIGHTLIGHS*/
 .product{
     position: relative;
     overflow: hidden;
     padding: 20px;
+    margin-bottom: 24px;
 }
-
-/* .product-category{
-    padding: 0 10vw;
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 40px;
-    text-transform: capitalize;
-} */
 
 .product-container{
     padding: 0 4vw;
@@ -471,7 +389,9 @@ nav{
 .nxt-btn:hover img{
     opacity:1;
 }
+/*END OF NEW FASHION HIGHLIGHTS*/
 
+/*M & H ESSENTIALS*/
 .essentials{
     width: 70%;
     height: 550px;
@@ -514,7 +434,9 @@ nav{
     color:#fff;
     outline: none;
 }
+/*END OF M & H ESSENTIALS*/
 
+/*MAGAZINE */
 .magazine-container{
     width: 100%;
     text-align: center;
@@ -536,7 +458,6 @@ nav{
     height: 350px;
     background-color: #fff;
     /* overflow: hidden; */
-  
 }
 
 .magazine-card-img{
@@ -555,9 +476,6 @@ nav{
 }
 .mag-h4{
     margin-bottom: 40px;
-    
-    
-    
 }
 .mag-h4 a{
     font-size: .85rem;
@@ -565,10 +483,6 @@ nav{
     color: black;
     text-decoration: none;
     transition: 0.5s ease-in-out;
-}
-.mag-h4 a:hover{
-    /* color: gray; */
-
 }
 
 .magazine-action{
@@ -611,51 +525,58 @@ nav{
     height: 12px;
     width: 12px;
 }
+/*END OF MAGAZINE*/
 
 
-/*DRESSES PAGE*/
-.main-container{
-    width:90%;
-    padding:0 10px;
-    display: flex;
-    justify-content: space-between;
-    /* gap: 50px; */
-    margin: auto;
-    /* border: 1px solid black; */
-
+/***************************************STYLES FOR DRESSES.HTML***********************************************/
+/*ASIDE*/
+.aside{
+    width: 20%;
 }
-.catelogue{
-    /* border: 1px solid pink; */
+.aside-category{
+    margin-bottom: 30px;
 }
+.category-title{
+    margin-bottom: 10px;
+}
+.category-item{
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.category-item:hover{
+    text-decoration: underline;
+}
+.category-item li{
+    list-style: none;
+    font-size: 0.75rem;
+    color: black;
+    margin-bottom: 10px;
+}
+/*END OF ASIDE*/
+
+/*PRETTY IN PRINTS*/
 .featured-dresses{
     width:100%;
-    /* border: 1px solid yellow; */
 }
 .main-feature{
     height: 650px;
     width: 100%;
     margin-bottom: 40px;
 }
-.dress{
-    margin-bottom: 20px;
-}
 .main-feature-container{
     position:relative;
     display: flex;
-    
 }
 
 .dress-img1{
     height:650px;
     width:50%;
-    /* border: 1px solid blue; */
     background-image: url(/assets/images/dress/main-img1.jpg);
     background-position: top;
 }
 .dress-img2{
     height:650px;
     width:50%;
-    /* border: 1px solid blue; */
     background-image: url(/assets/images/dress/main-img2.jpg);
     background-position: top;
 }
@@ -667,83 +588,40 @@ nav{
     margin-top: 50%;
     background-color: rgba(255,255,255,0.250);
 }
+/*END*/
 
-.categlogue-nav{
+/*DRESSES*/
+.main-container{
+    width:90%;
+    padding:0 10px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    /* padding: 3px; */
-    margin-bottom: 8px;
-    /* border: 1px solid blue; */
-} 
-
+    margin: auto;
+}
+.dress{
+    margin-bottom: 20px;
+}
 .catelogue-nav-drop-down{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 75%;
-    /* border: 1px solid red; */
 }
 .catelogue-nav-display{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     
 }
 .catelogue-nav-display p{
     margin: 0 25px 0 0;
 }
-.catelogue-nav-display button{
-    
-}
-.dropdown{
-    width: 10%;
-}
 
-.dropdown-content{
-    position: relative;
-    padding: 5px;
-    background: #f1f1f1;
-}
-.dropdown-content .dropdown-content-items{
-    display:flex;
+.categlogue-nav{
+    display: flex;
     align-items: center;
-    cursor: pointer;
-    /* padding: 0 5px; */
-    height: 30px;
-    width: 100%;
-}
-.dropdown-content .dropdown-content-items:hover{
-    background: black;
-}
-.dropdown-content-items input{
-    font-size: 13px;
-    margin-right: 10px;
-}
-.dropdown-content-items span{
-    font-size: 13px;
-}
-
-
-.catelogue-card-container{
-    /* border: 1px solid aqua; */
-    z-index: 0.5;
-    /* display: flex;
     justify-content: space-between;
-    align-items: center; */
+    margin-bottom: 8px;
 }
-
-/**/
-.dropdown-nav{
-    /* display:flex; */
-    /* justify-content: center; */
-    /* align-items: center;
-    width: 350px;
-    margin:0 auto; */
-    /* border: 1px solid black; */
-    
-}
-
 .dropdown-nav-menu{
     display: flex;
     align-items: center;
@@ -787,64 +665,8 @@ nav{
 .dropdown-menu-list input{
     margin: 0 10px 0 0;
 }
-/**/
-
-/* .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-.dropdown {
-    font-size: 12px;
-    border:none;
-    outline:none;
-    padding: 14px 16px;
-    align-items: center;
-    margin: 0;
-}
-.dropbtn{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border:none;
-}
-
-.dropdown img{
-    padding-top:5px;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    /* background-color: #f9f9f9; */
-    /* min-width: 160px; */
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    /* z-index: 1; */
-  /* } */
-  /* .dropdown-content p {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  } */
-
-/* .dropdown:hover .dropdown-content {
-    display: block;
-  } */
-
-
-
-.display-icon1{
-    /* margin-right: 15px; */
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-}
-.display-icon2{
-    /* margin-right: 15px; */
-    border: none;
-    cursor: pointer;
-    /* margin-right: 25px; */
+.catelogue-card-container{
+    z-index: 0.5;
 }
 .categlogue-card{
     display: flex;
@@ -852,10 +674,57 @@ nav{
     margin-bottom: 25px;
 }
 .card{
+    height: 365px;
+    width: 200px;
+    display:inline-block;
+}
+.card-img{
+    height:300px;
+    width:200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-info{
+    margin-left:8px;
+}
+.card-info p{
+    margin: 4px 0;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.card-description{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4px;
+    font-size: 0.75rem;
+}
+.card-discount{
+    text-decoration: none;
+    color: red;
+    font-size: 0.75rem;
+}
+.display-icon1{
+    /* margin-right: 15px; */
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.display-icon2{
+    border: none;
+    cursor: pointer;
+}
+
+.card{
     width: 236px;
     height: 450px;
     overflow: hidden;
-    background-color: white;
+    /* background-color: white; */
     
 }
 .card-img{
@@ -896,13 +765,10 @@ nav{
     padding: 3px;
 }
 
+ 
+/*END OF DRESSES*/
 
-
-
-
-
-
-
+/*FOOTER*/
 footer{
     
     margin-top:auto;
@@ -961,3 +827,4 @@ footer{
     justify-content: center;
     gap: 20px;
 }
+/*END OF FOOTER*/
